@@ -1,0 +1,16 @@
+fun factorial(n) = 
+{
+  if (n < 1)
+  {
+    output = 1;
+  }
+  else
+  {
+    output = n * factorial(n-1);
+  }
+}
+output;
+{
+  print("factorial(5) = 120");
+  print(factorial(5));
+}

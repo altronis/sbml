@@ -1,0 +1,14 @@
+fun reverse(s, length) = 
+{
+  i = 0;
+  outstr = "";
+  while(i < length)
+  {
+    outstr = s[i] + outstr;
+    i = i + 1;
+  }
+}
+outstr;
+{
+  print(reverse(".sdrawrof si gnirts sihT", 24));
+}

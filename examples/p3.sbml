@@ -1,0 +1,18 @@
+fun max(alist, length) = 
+{
+  cur_max = 0;
+  i = 0;
+  while (i < length)
+  {
+    if (alist[i] > cur_max)
+    {
+      cur_max = alist[i];
+    }
+    i = i + 1;
+  }
+}
+cur_max;
+{
+  print("max is 330");
+  print(max([122, 44, 32, 7, 89, 56, 330, 17], 8));
+}

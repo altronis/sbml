@@ -1,0 +1,21 @@
+fun f1(x) = 
+{
+  result1 = x + 10;
+}
+result1;
+fun f2(y) = 
+{
+  result2 = y + 100;
+}
+result2;
+fun f3(z) = 
+{
+  result3 = z + 1000;
+}
+result3;
+{
+  res = f1(5);
+  res = f2(res);
+  res = f3(res);
+  print(res);
+}

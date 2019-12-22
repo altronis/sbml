@@ -1,0 +1,9 @@
+fun tester(x) = 
+{
+  output = x;
+}
+output + 10;
+{
+  print("Tester = 15");
+  print(tester(5));
+}
